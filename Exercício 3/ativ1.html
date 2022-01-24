@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Vamos Contar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+
+    <section>
+        <!--- Div para receber inputs --->
+        <div>
+            <label for="inicio">Início: </label><input type="number" name="inicio" id="inicio"><br>
+            <label for="Fim">Fim: </label><input type="number" name="fim" id="fim"><br>
+            <label for="passos">Passos: </label><input type="number" name="passos" id="passos">
+            <input type="button" value="Contar" onclick="contador()">
+        </div>
+        <!--- Div para mostrar o output --->
+        <div id="contando">
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
